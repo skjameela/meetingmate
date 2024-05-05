@@ -1,0 +1,65 @@
+/* login css */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+/* placeholder color */
+.form-control::placeholder {
+	color: lightgray;
+}
+
+.custom-button {
+	color: #ffffff;
+	background-color: #2594E0;
+}
+
+/* message background color 
+.bg-msg {
+    background-color: #fff8db;
+} */
+.input-ele-border-radius {
+	border-width: 2px;
+	border-radius: 16px;
+	border-color: black;
+}
+
+/* focus on form control and btn control  */
+.form-control:focus {
+	border-color: #2594E0;
+	box-shadow: none;
+}
+
+.btn:focus {
+	border-color: #2594E0;
+	box-shadow: none;
+}
+
+/* anchor ele  */
+.anchor-ele {
+	text-decoration: none;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 600;
+	color: #000000;
+}
+
+.anchor-ele:hover {
+	text-decoration: none;
+	color: #2594E0;
+}
+
+/* zoom ele  */
+.zoom-ele {
+	transition: transform 0.3s ease;
+}
+
+.zoom-ele:hover {
+	transform: scale(1.2);
+}
+
+.font-weight-website {
+	font-weight: 600;
+}

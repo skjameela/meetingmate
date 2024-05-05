@@ -1,0 +1,36 @@
+	/* CSS for the suggestions box */
+.autocomplete-suggestions {
+  
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+   
+}
+
+.autocomplete-suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+ /* Show the suggestions box when there are suggestions */
+.autocomplete-suggestions.show {
+    display: block;
+}	
+	
+#suggestions:hover {
+           
+            /* Styling for search bar when we hover on
+              it to show the shadow of the search bar
+            The attributes for box-shadow are:
+            offset-x | offset-y | blur-radius | color */
+            box-shadow: 0px 1px 3px rgb(192, 185, 185);
+      
+      }
+      
+.selected-suggestion {
+    background-color: rgba(0, 0, 0, 0.1); /* Light black background color */
+}

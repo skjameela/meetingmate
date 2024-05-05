@@ -1,0 +1,356 @@
+html {
+  overflow-x: hidden;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* scrollbar  */
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #888;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+body {
+  margin: 0px;
+  padding-top: 13vh;
+}
+
+/* navbar  */
+.navbar-bg-container {
+  background-color: #ffffff;
+}
+/*media query for side nav links */
+@media screen and (max-width:767px){
+  .anchor-links-forms{
+    text-align: center;
+  }
+}
+
+
+/* anchor ele  */
+.anchor-ele {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+}
+
+.anchor-ele:hover {
+  text-decoration: none;
+  color: #2594E0;
+}
+
+.del-button-ele{
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+}
+.del-button-ele:hover{
+  text-decoration: none;
+  color: #ff0000;
+}
+
+
+/*anchor-ele-forms*/
+.anchor-ele-forms{
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+}
+
+.anchor-ele-forms:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+/* zoom ele  */
+.zoom-ele {
+  transition: transform 0.3s ease;
+}
+
+.zoom-ele:hover {
+  transform: scale(1.2);
+}
+
+
+
+/* active forms */
+.active-formNavbar{
+  text-decoration: none;
+  color: #2594E0;
+}
+
+.active-formSideBar{
+  text-decoration: none;
+  color: #2594E0;
+  transform: scale(1.2);
+
+}
+
+
+/*checkbox in bgv*/
+input[type='radio'],input[type='checkbox']{
+  height:16px;
+  width: 16px;
+ accent-color:#2594E0;
+}
+/*font-weight-for-most*/
+.font-weight-website{
+  font-weight:600;
+}
+
+
+/* focus on form control and btn control  */
+.form-control:focus {
+  border-color: #2594E0;
+  box-shadow: none;
+}
+
+.btn:focus {
+  border-color: #2594E0;
+  box-shadow: none;
+}
+
+.custom-button {
+  color: #ffffff;
+  background-color: #2594E0;
+}
+
+/* .input-ele-border-radius {
+  border-width: 2px;
+  border-radius: 16px;
+  border-color: black;
+} */
+
+.bg-employeeHome{
+  background-color: #f5f5f5;
+}
+
+/* all anchor  forms */
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+}
+
+.topnav,
+a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+.active {
+  background-color: #2594E0;
+  color: white;
+}
+
+/* all anchor  forms background */
+.bg-container-forms {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 90vh;
+
+
+}
+
+/* all forms background */
+.bg-all-forms {
+  /* background-color: #fff8db; */
+  /* background-color:#F7FFE5; */
+  /* background-color:#ffffff; */
+  background-color: #f5f5f5;
+  overflow-y:auto;
+  overflow-x: hidden;
+  height: 90vh;
+}
+
+
+/* display all forms  */
+/* .displayPersonal {
+  display: none;
+}
+
+.displayEducation {
+  display: none;
+}
+
+.displayWorkExperience {
+  display: none;
+} */
+
+
+/* carousel background */
+
+.bg-container-carousel {
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+/* carousel height in viewport height*/
+.height-width-css {
+  height: 90vh;
+}
+
+
+
+
+/* follow us section  */
+
+.follow-us-section {
+  background-color: #000000;
+}
+
+.follow-us-section-heading {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.icon {
+  color: #2594E0;
+  font-size: 24px;
+}
+
+/* footer section  */
+.footer-bg-container {
+  background-color: #000000;
+  background-size: cover;
+}
+
+.phoneno {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.icon1 {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.contactdetails {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto";
+
+}
+
+
+/* footer bottom text  */
+.bottom-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
+/* :horizontal line  */
+.hr-line {
+  background-color: #ffffff;
+}
+
+
+
+/* placeholder color */
+.form-control::placeholder {
+  color: lightgray;
+}
+
+/* textarea  resize none  */
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  resize: none;
+  overflow: auto;
+  width: 100%;
+}
+
+/* uploaded images preview */
+.image-preview {
+
+  margin-top: 20px;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.image-preview img {
+
+  max-width: 100px;
+
+  max-height: 100px;
+
+}
+
+
+/* add skills tag  */
+.tag {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 8px 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 16px;
+  border-color: #2594E0;
+  transition: transform 0.3s ease;
+
+}
+
+.tag:hover {
+  transform: scale(1.2);
+}
+
+
+.tag-text {
+
+  display: inline;
+
+  margin-right: 8px;
+  color: #000000;
+}
+
+.tag-close {
+  color: #ff0000;
+  display: inline;
+  cursor: pointer;
+
+}
+
+
+/* a.hiddenTab{
+  visibility:hidden; 
+  display:none;
+} */
